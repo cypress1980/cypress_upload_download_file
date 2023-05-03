@@ -4,7 +4,7 @@ Uploading files is typically done using a file input element on a web page, and 
 
 Downloading files typically done by sending an HTTP request to the server and receiving a file as part of the response. In Cypress, you can automate file downloads by intercepting the HTTP response and saving the file to a specified location on the user's computer using the .writeFile() command.
 
-**Cypress provides several ways to upload the file in Cypress
+*Cypress provides several ways to upload the file in Cypress
 
 **Procedure 1:
 First procedure is using Using selectFile() command
