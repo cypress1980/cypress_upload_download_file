@@ -10,10 +10,10 @@ Downloading files typically done by sending an HTTP request to the server and re
 First procedure is using Using selectFile() command
 
 Here are the various Syntax for select the file 
-.selectFile(file)
-.selectFile(file, options) 
-.selectFile([file1, file2, ...]) 
-.selectFile([file1, file2, ...], options)
+**.selectFile(file)**
+**.selectFile(file, options)** 
+**.selectFile([file1, file2, ...])** 
+**.selectFile([file1, file2, ...], options)**
 
 
 **Procedure 2**
