@@ -1,4 +1,4 @@
-describe("Example to demonstrate file upload in cypress", function () {
+describe("Example to demonstrate how to upload the file in cypress", function () {
   it("Upload the file using .selectFile with select mode", () => {
     cy.visit("https://the-internet.herokuapp.com/upload");
     cy.get("#file-upload").selectFile(
@@ -34,7 +34,7 @@ describe("Example to demonstrate file upload in cypress", function () {
     });
   })
   })
-describe.only('Upload the file using the plugin cypress-file-upload', function () {
+describe('Upload the file using the plugin cypress-file-upload', function () {
     it('File Upload using cypress-file-upload npm package', () => {
       cy.visit('https://the-internet.herokuapp.com/upload')
         const filePath = 'images/nature_evening.png'
